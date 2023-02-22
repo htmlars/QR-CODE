@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    width: 21.399rem;
+    height: 32.993rem;
+    border-radius: 1.4rem;
+    box-shadow: 0 0.063rem 0.188rem rgba(31, 50, 81, 0.12), 0 0.063rem 0.125rem rgba(31, 50, 81, 0.24);
+    transition: all 0.3s ease-in-out;
+    padding: 1rem;
+}
+
+@media (hover: hover) {
+    .container:hover {
+      box-shadow: 0 0.875rem 1.75rem rgba(31, 50, 81, 0.25), 0 0.625rem 0.625rem rgba(31, 50, 81, 0.22);
+    }
+  }
+
+.container .top img {
+    position: relative;
+    width: 19.2rem;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.qr-img {
+    max-width: 100%;
+}
+
+.container .bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .bottom h2 {
+    position: relative;
+    font-size: 1.5rem;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 0.02rem;
+    margin: 1.3rem 0 0.77rem 0;
+}
+
+.container .bottom p {
+    position: relative;
+    color: hsl(220, 15%, 55%);
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.013rem;
+    margin: 0 0.6rem 1.832rem;
+}
